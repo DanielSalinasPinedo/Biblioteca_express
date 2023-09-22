@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Se produjo un error',
+            text: 'Por favor, complete todos los campos del formulario.',
+          allowOutsideClick: false,
+          allowEscapeKey: false,
+          allowEnterKey: false,
+          stopKeydownPropagation: true
+        }).then(() => {
+            window.location.href = '/formulario';
+          });
+        </script>
+</body>
+</html>

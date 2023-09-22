@@ -1,0 +1,27 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Permite a el usuario hacer prestamos de libros en la Biblioteca, almacenando la información en el archivos de texto en un servidor web",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSalinasPinedo/W2A1C2"
+  },
+  "author": "DanielSalinasPinedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSalinasPinedo/W2A1C2/issues"
+  },
+  "homepage": "https://github.com/DanielSalinasPinedo/W2A1C2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "sweetalert2": "^11.7.28"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
